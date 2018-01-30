@@ -51,7 +51,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\ftueScript.cs" />
+     <Compile Include="Assets\game2Script.cs" />
      <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanAddForce.cs" />
      <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanCameraMove.cs" />
      <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanCameraMoveSmooth.cs" />
@@ -88,8 +88,7 @@
      <Compile Include="Assets\LeanTouch\Scripts\LeanSelectable.cs" />
      <Compile Include="Assets\LeanTouch\Scripts\LeanSnapshot.cs" />
      <Compile Include="Assets\LeanTouch\Scripts\LeanTouch.cs" />
-     <Compile Include="Assets\lvl2Script.cs" />
-     <Compile Include="Assets\mainMenuXpScript.cs" />
+     <Compile Include="Assets\mapScript.cs" />
      <Compile Include="Assets\Raving Bots\Scripts\Water2D\Water2DEffects.cs" />
      <Compile Include="Assets\Raving Bots\Scripts\Water2D\Water2DGrabRenderTex.cs" />
      <Compile Include="Assets\Raving Bots\Scripts\Water2D\Water2DMaterialScaler.cs" />
@@ -109,6 +108,11 @@
      <Compile Include="Assets\Scripts\dolphinScript.cs" />
      <Compile Include="Assets\Scripts\fishGameFtueScript.cs" />
      <Compile Include="Assets\Scripts\fishScript.cs" />
+     <Compile Include="Assets\Scripts\fishTurnColliderScript.cs" />
+     <Compile Include="Assets\Scripts\ftueScript.cs" />
+     <Compile Include="Assets\Scripts\lvl2Script.cs" />
+     <Compile Include="Assets\Scripts\mainMenuXpScript.cs" />
+     <Compile Include="Assets\treasureScript.cs" />
      <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
      <None Include="Assets\LeanTouch\Examples\Fonts\OFL.txt" />
      <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />

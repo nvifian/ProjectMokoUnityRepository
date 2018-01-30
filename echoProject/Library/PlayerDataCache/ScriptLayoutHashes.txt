@@ -28,7 +28,7 @@ c35752b81d25e001fee445da226f3c4e Assembly-CSharp-firstpass.dll:UnityStandardAsse
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp-firstpass.dll:.EventSystemChecker
 5068bc7e323c614e8e3c4e61f062de7c Assembly-CSharp-firstpass.dll:UnityStandardAssets.Vehicles.Car.SkidTrail
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.PauseMenu
-6a909624746ebc259185c1fc3339a835 Assembly-CSharp.dll:.dolphinProgressScript
+9a483becc90818335fbdfd5489001e50 Assembly-CSharp.dll:.dolphinProgressScript
 6ef10f2c9d52b20165b73caa5f02409d Assembly-CSharp-firstpass.dll:UnityStandardAssets.Vehicles.Aeroplane.AeroplaneUserControl4Axis
 3b945a83fa61133bbb7c61d4d7012fd9 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Effects.Hose
 a35dc9cca2faebc5f5f1aeb9e8e47bbe UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
@@ -141,6 +141,7 @@ dc07d7ad69b399a46e92c483bf1c04ca UnityEngine.Analytics.dll:UnityEngine.Analytics
 6e714b24188cddfc9ae1e07d05ed4ddd Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.ParticleSystemDestroyer
 879b3df2ab67cfd00172f75f85a7a583 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.SimpleMouseRotator
 c7790408002dd6c0c359a055959ef579 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Vehicles.Aeroplane.AeroplaneAudio
+ec28c2aa0a57c8faf2d2e16aba5361e0 Assembly-CSharp.dll:.fishTurnColliderScript
 bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.AudioSpatializerMicrosoft
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInput
 463516d5b5fe8e67a0a24c48f2095b04 UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInputModule
@@ -163,7 +164,7 @@ fe76270bd84ec3b6f2f6f92c69cf69da Assembly-CSharp-firstpass.dll:UnityStandardAsse
 f99d3465233b76eda3064507a7c0dd11 Assembly-CSharp.dll:.ftueScript
 5783b5cb6e6d5bcc7df8ef9e6d5aada9 Assembly-CSharp.dll:Lean.Touch.LeanRotate
 a7d3c6c6948d99dd4116e659ddcf5ac4 Assembly-CSharp-firstpass.dll:UnityStandardAssets.CrossPlatformInput.ButtonHandler
-b5ba751a858d0b95149914cafdb38079 Assembly-CSharp.dll:.mainMenuXpScript
+e44919f5c9bed1038e64c7f8aff27c5b Assembly-CSharp.dll:.mainMenuXpScript
 83877f03b51b3b13fa0d6c51291e0575 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Characters.FirstPerson.HeadBob
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp-firstpass.dll:UnityStandardAssets.Characters.ThirdPerson.ThirdPersonUserControl
 a90e94673f50d2237c1b971c138660c6 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.AutoMoveAndRotate
@@ -189,7 +190,7 @@ e7f268767823a8cd19911699aa31f1ea Assembly-CSharp.dll:Lean.Touch.LeanMultiTapInfo
 b1b4763aff77a7668cd4b587bae7023a Assembly-CSharp.dll:RavingBots.Water2D.Water2DGrabRenderTex
 16756866ef08c5c05c6229db9418c551 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Cameras.FreeLookCam
 91b36326f294b619937373da443e69b6 Assembly-CSharp.dll:Lean.Touch.LeanTouch
-065742d02c3d01054035071c174d9bd3 Assembly-CSharp.dll:.fishScript
+50f4c789e5fe8ee3e4db8ddd53e48729 Assembly-CSharp.dll:.fishScript
 869e5abc2271c3b618904edff22e38ef Assembly-CSharp-firstpass.dll:UnityStandardAssets.Effects.ExplosionFireAndDebris
 fc1e0f4d8439d9928083474691511a13 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour
@@ -261,8 +262,10 @@ f4b175ffc1eeca85d2783436b4c764a7 Assembly-CSharp-firstpass.dll:UnityStandardAsse
 685d4c83b4896c997314336557dd18df Assembly-CSharp.dll:Lean.Touch.LeanFingerTrail
 493c211ab85ec2db8c090d3ba6c0a013 Assembly-CSharp.dll:Lean.Touch.LeanSelectableGraphicColor
 6746ad828d32ad6e5c07a63950fd4be6 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Water.WaterTile
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.mapScript
 75f17fb9bd4464dd934541ea4a00eaf3 Assembly-CSharp.dll:Lean.Touch.LeanTranslate
 5652388a27686e3b4c5bbff6e0e7c256 Assembly-CSharp.dll:Lean.Touch.LeanFingerUp
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.game2Script
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.FPSCounter
 d49c4dceabcd0f316458072a477aeae8 Assembly-CSharp.dll:Lean.Touch.LeanSpawn
 1599adf36a90c6dd91987c85a00ee885 Assembly-CSharp.dll:Lean.Touch.LeanFingerHeld
@@ -270,3 +273,4 @@ d49c4dceabcd0f316458072a477aeae8 Assembly-CSharp.dll:Lean.Touch.LeanSpawn
 493c211ab85ec2db8c090d3ba6c0a013 Assembly-CSharp.dll:Lean.Touch.LeanSelectableRendererColor
 a412f64ff4e4667098f82b7fa0bf56e2 Assembly-CSharp-firstpass.dll:UnityStandardAssets._2D.PlatformerCharacter2D
 0f3d4bb7128a287827d041c696039525 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.AutoMobileShaderSwitch
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.treasureScript

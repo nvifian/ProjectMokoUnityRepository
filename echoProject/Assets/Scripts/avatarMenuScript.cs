@@ -9,7 +9,6 @@ public class avatarMenuScript : MonoBehaviour
 	public static bool beachBallBool;
 	public bool hoopBool;
 	public bool basketBallBool;
-	public static bool lvl1Bool;
 	public static bool lvl2Bool;
 	public static bool lvl3Bool;
 	public static bool lvl4Bool;
@@ -35,7 +34,6 @@ public class avatarMenuScript : MonoBehaviour
 
 	public void Start ()
 	{
-		lvl1Bool = true;
 		inventoryInt = 1;
 		beachBallBool = true;
 	}
@@ -43,12 +41,12 @@ public class avatarMenuScript : MonoBehaviour
 	public void beachBallFunction()
 	{
 		countdownFloat = 10;
-		if(lvl1Bool == true && beachBallBool == false)
+		if(beachBallBool == false)
 		{
 			Invoke ("BallEnableFunction",.1f);
 
 		}
-		if(lvl1Bool == true && beachBallBool == true)
+		if(beachBallBool == true)
 		{
 			Invoke ("BallDisableFunction",.1f);
 		}
@@ -75,17 +73,16 @@ public class avatarMenuScript : MonoBehaviour
 	public void RightButtonFunction()
 	{
 		inventoryInt++;
-		Invoke ("BoolRoutine", 0);
 	}
 
 	public void LeftButtonFunction()
 	{
 		inventoryInt--;
-		Invoke ("BoolRoutine", 0);
 	}
 
 	public void Update()
 	{
+		Debug.Log (beachBallBool);
 		Debug.Log (inventoryInt);
 		Debug.Log (countdownFloat);
 		if (beachBallBool == false)
